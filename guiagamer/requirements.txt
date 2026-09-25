@@ -1,0 +1,21 @@
+# CKP01 — GuiaGamer · Chatbot Profissional
+# Versões testadas com Python 3.14 (também funcionam no 3.11/3.12).
+# langchain-classic fornece ConversationChain e as memórias (mesmo pacote
+# usado nos notebooks das aulas do Módulo 1).
+
+langchain==1.4.2
+langchain-classic==1.0.8
+langchain-core==1.6.3
+langchain-ollama==1.1.0
+
+pydantic==2.13.5
+
+gradio==6.28.0
+
+python-dotenv==1.2.3
+
+# Contagem de tokens (memória TokenBuffer + experimento de context rot)
+tiktoken==0.14.0
+
+# Gráfico comparativo do experimento de context rot
+matplotlib==3.11.2
